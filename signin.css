@@ -1,0 +1,114 @@
+.bgcustom{
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+}
+.main{
+  overflow: hidden;
+}
+.signup input
+{
+  margin:10px;
+  width:10cm;
+  height:35px;
+  padding: 10px;;
+  border:none;
+  border-bottom: 1px solid  #990011;
+  color : #b30318;
+  
+}
+.signup input[type=email]:focus{
+  font-size: larger;
+  border: none;
+  border-bottom: 1px solid #b30318;
+}
+.signup input[type=password]:focus{
+  font-size: larger;
+  border:none;
+  border-bottom: 1px solid #b30318
+}
+.signup input[type=text]:focus{
+  font-size: larger;
+  border:none;
+  border-bottom: 1px solid #b30318
+}
+
+.signupform {
+  background: none; /* Make it slightly transparent */
+  display: inline-block;
+  width: 30%;
+  margin-left: 350px;
+  padding: 20px; /* Add some padding for spacing */
+  border-radius: 10px; /* Optional: to make the corners rounded */
+}
+
+.signup button
+{
+  margin:10px;
+  padding:15px;
+  width:120px;
+  margin-top:30px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.nav {
+  background-color: #FCF6F5;
+  border: 1px none #FCF6F5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10; /* Added to ensure the nav stays on top */
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.button1 {
+  color: #990011;
+  font-weight: bold;
+  border: 1px solid;
+  padding: 13px;
+  margin-left: 20px;
+  border-radius: 0.2cm;
+  margin-top: 7px;
+  background-color: #FCF6F5;
+}
+
+.button2 {
+  background-color:#b30318;
+  color: #FCF6F5;
+  font-weight: bold;
+  border: 1px solid;
+  padding: 13px;
+  margin-left: 20px;
+  border-radius: 0.2cm;
+  margin-top: 7px;
+}
+
+.button1:hover {
+  border: 2px solid;
+  border-color:#b30318;
+}
+
+.button2:hover {
+  background-color: #990011;
+}
+
+.bottom {
+  margin-top: 0px !important;/* Added to ensure content doesn't go under the fixed navbar */
+}
+
+

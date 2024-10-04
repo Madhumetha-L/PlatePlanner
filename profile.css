@@ -1,0 +1,129 @@
+ 
+  li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+  }
+  .bottom{
+    background-image: url('./assets/bg.png');
+  }
+  
+  select {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+  }
+  
+ 
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .button1 {
+    color:#990011;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 13px;
+    margin-left: 20px;
+    border-radius: 0.2cm;
+    margin-top: 7px;
+    background-color: #FCF6F5;
+  }
+  
+  .button2 {
+    background-color: #b30318;;
+    color: #FCF6F5;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 13px;
+    margin-left: 20px;
+    border-radius: 0.2cm;
+    margin-top: 7px;
+  }
+  
+  .button1:hover {
+    border: 2px solid;
+    border-color: #b30318;;
+    background-color: #FCF6F5;
+  }
+  
+  .button2:hover {
+    background-color:#990011;
+  }
+  
+  .bottom {
+    background-color:#FCF6F5; /* Added to ensure content doesn't go under the fixed navbar */
+  }
+
+  .iden 
+  {
+    background-image: url('./assets/bg.png');
+    color:#faf8f8;
+    margin-top: 100px;
+    
+
+  }
+  .identity 
+  {
+    margin-top: 15px;
+    margin-left: 300px;
+    width:50%;
+    height:350px;
+    text-align: center;
+    color:#fdfbfb;
+    font-size:larger;
+    font-weight: bolder;
+    border-radius: 2px;
+    transition:0.5s;
+  }
+  .identity:hover 
+  {
+    transform:translate(0,-10px);
+  }
+  .profile input 
+  {
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom:2px solid #b30318;; 
+    margin-left: 200px;
+    background-color:  #FCF6F5;
+    
+  }
+  .profile input:disabled 
+  {
+    background-color:  #FCF6F5;
+  }
+  .profile input:focus
+  {
+    margin:20px;
+    border:none;
+    border-bottom:2px solid #b30318;;
+    border-top:none;
+    border-left:none;
+    color: #b30318;;
+    margin-left: 200px;
+    font-size: larger;
+    
+  }
+  .cont8 
+{
+  width:40%;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 10px;;
+  background-color: #FCF6F5;
+  transition: transform ease 300ms;
+}
+.cont8:hover 
+{
+  transform: translate(0, -10px);
+  
+}

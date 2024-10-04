@@ -1,0 +1,133 @@
+/* Search button styles */
+.search-button {
+    padding: 10px 20px;
+    background-color: #7c1a12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add some space above */
+  }
+  
+  .search-button:hover {
+    background-color: #69150e; /* Darker shade on hover */
+  }
+  /* Suggestion.css */
+
+.ingredient-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between cards */
+}
+
+.ingredient-card {
+/*   background-image: url('./assets/card_1.png');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px; /* Space inside the card */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  border-radius: 8px;
+/* Fixed width for cards */
+}
+.ingredient-name {
+  font-weight: bold; /* Make ingredient names bold */
+}
+/* Suggestion.css */
+
+.ingredient-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Space below the input */
+}
+
+.inputField {
+  padding: 10px;
+  border: 2px solid #7c1a12; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+  flex: 1; /* Make input take available space */
+}
+
+.inputField:focus {
+  border-color: #f11919; /* Change border color on focus */
+}
+
+.add-button {
+  background-color: #7c1a12; /* Button color */
+  color: white; /* Text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  margin-left: 10px; /* Space between input and button */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for button color */
+}
+
+.add-button:hover {
+  background-color: #69150e; /* Darker shade on hover */
+}
+
+.remove-button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white; /* White text for button */
+  border: none; /* No border */
+  border-radius: 3px; /* Rounded corners */
+  padding: 5px; /* Space inside button */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.remove-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Suggestion.css */
+/* Suggestion.css */
+
+.main-container {
+  background-image: url('./assets/bg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+   /* Aligns navbar and content vertically */
+}
+
+.content-container {
+  display: flex; /* Use flexbox to layout the main content and beehive side by side */
+  justify-content: space-between; /* Spaces out the content evenly */
+  padding: 20px; /* Adds padding around the content */
+}
+
+.container {
+  flex: 1; /* Allow the main content to take available space */
+}
+
+.beehive-container {
+  width: 300px; /* Fixed width for beehive section */
+  padding-left: 20px; /* Space between main content and beehive */
+}
+
+.beehive {
+  display: flex;
+  flex-wrap: wrap; /* Wrap to next line if needed */
+  justify-content: center; /* Center items in the container */
+}
+
+.beehive-item {
+  background-color: #f8f9fa; /* Light background for food items */
+  border: 1px solid #ced4da; /* Make it circular */
+  width: 250px; /* Fixed width for items */
+  height: 100px; /* Fixed height for items */
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px; /* Space between items */
+  font-weight: bold; /* Make text bold */
+}

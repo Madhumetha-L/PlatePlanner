@@ -1,0 +1,50 @@
+    .bg{
+        background-image: url('./assets/bg_2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 21.7%;
+    }
+
+    .about-box {
+    position: relative;
+    padding: 20px;
+    background: white; /* Light grey with transparency */
+    /*backdrop-filter: blur(10px); /* Blur background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10% 20%;
+    width: 60%; /* Adjust width as needed */
+    animation: fadeIn 1.5s ease-in-out, slideIn 1s ease-out;
+  }
+  
+  .about-title {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

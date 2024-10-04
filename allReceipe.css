@@ -1,0 +1,116 @@
+.nav {
+    background-color: #FCF6F5;
+    border: 1px none #FCF6F5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10; /* Added to ensure the nav stays on top */
+    
+  }
+  
+  .navBar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin-left: 120px;
+  }
+  
+  li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+  }
+  
+  select {
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color: #FCF6F5;
+  }
+  
+  .navBar-left {
+    display: inline;
+  }
+  
+  .navBar-right {
+    display: inline;
+    margin-left: 300px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .button1 {
+    color: #990011;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 13px;
+    margin-left: 20px;
+    border-radius: 0.2cm;
+    margin-top: 7px;
+    background-color: #FCF6F5;
+  }
+  
+  .button2 {
+    background-color:#b30318;
+    color: #FCF6F5;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 13px;
+    margin-left: 20px;
+    border-radius: 0.2cm;
+    margin-top: 7px;
+  }
+  
+  .button1:hover {
+    border: 2px solid;
+    border-color:#b30318;
+  }
+  
+  .button2:hover {
+    background-color: #990011;
+  }
+  
+  .bottom {
+    margin-top: 80px;
+    background-color: #FCF6F5; /* Added to ensure content doesn't go under the fixed navbar */
+  }
+  .search 
+  {
+    margin-top:100px;
+  }
+  .search input 
+  {
+     margin-left: 300px;
+     width:50%;
+     padding:15px;
+     border-radius: 30px;
+
+  }
+  .cont8
+{
+  width:40%;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+  border:1px solid;
+  /*border-color: rgb(255, 255, 255);*/
+  border: 3px solid rgb(207, 193, 193);;
+  padding: 10px;;
+  background-color: rgb(255, 255, 255);
+  transition: transform ease 300ms;
+  box-shadow: 15px 15px 5px 5px #990011;
+}
+.cont8:hover 
+{
+  border:2px dashed#b30318;
+  margin-top: -10px;
+  transform: translate(0, -10px);
+  
+}

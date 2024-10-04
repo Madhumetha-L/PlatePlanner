@@ -1,0 +1,93 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.para_font{
+    font-family:'Times New Roman', Times, serif;
+}
+/* Override unwanted padding or margins globally */
+body, html {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.bg-custom {
+    background-image: url('./assets/bg.png'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+}
+.bg-custom1 {
+    background-image: url('./assets/bg_2.png'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+    padding: 0 !important;
+}
+.call-to-action {
+  min-height: 100vh; /* Adjust as needed */
+}
+.custom-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the button's color */
+  }
+  
+  .custom-link:hover {
+    color: black; /* Change the text color to black on hover */
+    text-decoration: none; /* Ensure no underline */
+  }
+  
+.text_clr{
+    color: aliceblue;
+}
+.siz{
+    font-size: 50px;
+}
+.link_siz{
+    font-size: 20px;
+}
+.h_disp{
+    font-size: 50px;
+    color:#dc3545;
+}
+.fade-in {
+    margin: 0 !important;
+    animation: fadeIn 1s ease-in-out;
+}
+.card {
+    margin: 0 !important;
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05); /* Scale the card on hover */
+}
+
+.slide-in {
+    margin: 0 !important;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.slide-in.visible {
+    margin: 0 !important;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+@keyframes fadeIn {
+    from {
+        margin: 0;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        margin: 0;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
