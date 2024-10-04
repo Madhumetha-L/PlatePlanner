@@ -1,0 +1,97 @@
+/*.body 
+{
+  background-color: rgb(255, 255, 255);;
+}
+
+input
+{
+  margin:10px;
+  width:10cm;
+  height:35px;
+  padding: 10px;;
+  border:none;
+  border-bottom: 1px solid  rgb(223, 167, 48);
+  background-color:rgb(255, 255, 255);;
+  color:rgb(161, 111, 3);;
+  
+}
+input[type=email]:focus{
+  font-size: larger;
+  border: none;
+  border-bottom: 1px solid rgb(161, 111, 3);
+}
+input[type=password]:focus{
+  font-size: larger;
+  border:none;
+  border-bottom: 1px solid rgb(161, 111, 3);
+}
+
+.login 
+{ 
+  top:0;
+  background-color:rgb(255, 255, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:medium;
+  font-weight: 300;
+  color: rgb(223, 167, 48);
+  
+}
+.loginImage
+{
+  display: inline-block;
+
+  
+}
+.loginform
+{
+  display: inline-block;
+  width:20%;
+  margin-left: 100px;
+
+}
+.img1 
+{
+  width:20cm;
+  height:18cm;
+  
+}
+button
+{
+  margin:7px;
+  padding:15px;
+  width:120px;
+  margin-top:30px;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.loginB 
+{
+  
+  color:rgb(255, 255, 255);
+  font-weight: bolder;
+  background-color: rgb(223, 167, 48); ;
+  border-color: rgb(161, 111, 3); ;;
+}
+.siginB 
+{
+  color: rgb(161, 111, 3) ;
+  border-color: rgb(223, 167, 48); ;;
+  background-color: rgb(255, 255, 255);;
+}
+.loginB:hover
+{
+  
+  color:rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgb(161, 111, 3); ;;
+  border-color: rgb(161, 111, 3); ;;
+}
+.siginB:hover
+{
+  color: rgb(223, 167, 48); ;; ;
+  border-color: rgb(161, 111, 3) ;;
+  font-size: large;
+}
+
+*/
